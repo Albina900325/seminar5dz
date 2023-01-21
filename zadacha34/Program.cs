@@ -5,7 +5,7 @@
 void input_array(int [] array)
 {
 for (int i = 0; i < array.Length; i++)
-array[i] = new Random().Next(100, 1000); // 
+array[i] = new Random().Next(100, 1000); 
 }
 
 void release(int[] array)
