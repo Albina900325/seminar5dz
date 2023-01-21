@@ -18,7 +18,7 @@ Console.WriteLine($"{count}");
 }
 
 Console.Clear();
-Console.Write("Введите кол-во элементов: ");
+Console.Write("Введите количество элементов: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[n];
 input_array(array);
